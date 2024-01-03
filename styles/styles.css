@@ -468,7 +468,7 @@ p, button {
 }
 
 .numbers {
-    background-image: url("/images/BG.jpg");
+    background-image: url("../images/BG.jpg");
     padding-top: 53px;
     padding-bottom: 55px;
 }
@@ -575,10 +575,10 @@ p, button {
 .splide__list {
     display: flex;
     align-items: center;
-    gap: 30px;
 }
 
 .splide__slide {
+    padding-top: 51px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -595,7 +595,6 @@ p, button {
     line-height: 64px;
     /* 133.333% */
     letter-spacing: 0.5px;
-    padding-bottom: 51px;
 }
 
 .client-testimonial__box {
@@ -603,6 +602,7 @@ p, button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
     background: #FCFCFC;
     box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
     gap: 8px;
@@ -782,6 +782,7 @@ p, button {
 }
 
 .footer__container {
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
 }
