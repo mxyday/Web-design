@@ -42,6 +42,7 @@ p, button {
     padding: 0 17px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .header__logo {
@@ -107,12 +108,25 @@ p, button {
     color: #2d2f30;
 }
 
-@media screen and (max-width: 1024px) {
+.header__button {
+    display: none;
+}
+
+.button__mobile {
+    fill: #2d2f30;
+    position: absolute;
+    right: 15px;
+}
+
+@media screen and (max-width: 800px) {
     .header__header-nav {
         display: none;
     }
     .icon-magnifying-glass {
         display: none;
+    }
+    .header__button {
+        display: contents;
     }
 }
 
